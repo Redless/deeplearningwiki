@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-09T09:57:46-04:00
+
+====== Neural Networks ======
+
+Artificial neural networks are a family of machine learning algorithms based on the function of the brain. They consist of [[Layers]] of [[Nodes]] linked together by weighted connections, and can learn (in theory) to approximate any function if they are given enough examples of the function performed correctly, in the form of [[Training Data]] and a [[Loss Function]]. They do this by iteratively tuning their parameters through [[Gradient Descent]].
+
+They have many variations, including (most promisingly) [[Convolutional Neural Networks]] and [[Recurrent Neural Networks]]. They are typically constructed using software such as [[Keras]] or [[Tensorflow]].

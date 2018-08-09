@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-09T09:47:40-04:00
+
+====== Home ======
+This is Gabriel Brookman's wiki about deep learning. I was reading a lot of papers and wanted to categorize the info somehow, but it's obnoxious to do that in most formats, so I made a wiki.
+
+
+* [[Neural Networks]]
+* [[Convolutional Neural Networks]]
+* [[Recurrent Neural Networks]]
