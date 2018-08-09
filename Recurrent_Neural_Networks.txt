@@ -4,4 +4,12 @@ Creation-Date: 2018-08-09T10:08:50-04:00
 
 ====== Recurrent Neural Networks ======
 
-Recurrent Neural Networks
+Recurrent Neural Networks are a type of neural networks that applies to sequential data. For each element in the sequence, a node:
+* takes that element in as input
+* takes in a certain, specific "holdover" as input from the previous node
+* returns an output for that element
+* passes its own "holdover" to the next node in the sequence
+
+Because of how they work for sequential data, these networks are much-used to process music and other auditory data.
+
+Their weakness is their inhability to incorporate data from many items earlier in the sequence. This problem was fixed by [[LSTM's]].

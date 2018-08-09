@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-09T15:36:39-04:00
+
+====== Nodes ======
+
+Most layers have nodes (also known as "neurons". I use the terms interchangeably). Each node takes in the outputs of the nodes of the layers before it (or some subset of those nodes), linearly combines them using its weight parameters, adds its bias parameter, throws them through an [[Activation Function]], and outputs the result to the next layer.

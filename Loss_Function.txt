@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-09T15:42:02-04:00
+
+====== Loss Function ======
+
+Loss functions are the functions that we try to minimize through [[Gradient Descent]]. There are many loss functions, each takes a "target" and an "attempt" and returns a metric of how close the target and attempt are to one another. Here are a few examples:
+
+* [[Binary Crossentropy]]
+
+[[GAN's]] allow a second neural network (the [[Discriminator]]) to be trained to approximate the loss function for a first neural network (the [[Generator]]), circumventing the need for a traditional loss.

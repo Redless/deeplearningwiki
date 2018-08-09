@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-09T15:32:46-04:00
+
+====== Tensorflow ======
+
+Tensorflow is a low-level machine learning framework. It's winning the fight between low level frameworks, and is my favorite backend for [[Keras]].
+
