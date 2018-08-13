@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T12:24:59-04:00
+
+====== GAN Training Techs ======
+
+From [[Courant Institute of Mathematical Sciences]] and [[Facebook AI Research]]: https://openreview.net/pdf?id=Hk4_qw5xe
+Towards principled methods for training GANs
+This paper is only a first step, and suggests future research. Furthermore, it's all boring and useless math proofs. That's unfortunate.

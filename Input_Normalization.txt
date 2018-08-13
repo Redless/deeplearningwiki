@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T15:07:22-04:00
+
+====== Input Normalization ======
+
+It's been shown (especially for GANs) that normalizing inputs between -1 and 1 improves performance (source: https://github.com/soumith/ganhacks).
+
+Also see: [[Self-Normalizing Neural Networks]], [[Batch Normalization]]

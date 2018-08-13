@@ -8,4 +8,4 @@ See also: [[Testing Data]], [[Validation Data]]
 
 Training data is a set of inputs and outputs that a neural network is trained on. The neural network will learn to approximate some function that takes the inputs and produces the outputs.
 
-Training data can also be "unlabelled" and smuggled in using a technique such as [[GAN's]].
+Training data can also be "unlabelled" and smuggled in using a technique such as [[GANs]].

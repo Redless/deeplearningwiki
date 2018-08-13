@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T09:25:17-04:00
+
+====== GANs ======
+
+Generative adversarial models are a powerful system for training networks. One network, a [[Discriminator]], is trained to recognize the contents of a [[Training Data]] set. Meanwhile, another model, the [[Generator]], is trained to generate output from a random [[Noise Vector]]. The output is judged by the discriminator to be a member of the training data, so the generator improves at fooling the discriminator and thus learns to better approximate the training data. The generator must be very smart to keep fooling the discriminator.
+
+By taking advantage of a GAN framework, generative models rather than simply judgemental models can be created.
+
+Furthermore, GAN's can be trained completely on unsupervised data.
+
+GAN's are super hard to train, with lots of common [[GAN Failure Modes|Failure Modes]], so tons of tricks exist to make training them easier, such as:
+
+* [[Wasserstein GANs]]
+* [[Least-squares GANs]]
+* [[Instance Noise]]
+
+
+See this original paper from [[Montreal]]: https://arxiv.org/pdf/1406.2661.pdf

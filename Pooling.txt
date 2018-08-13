@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T09:36:31-04:00
+
+====== Pooling ======
+
+Pooling is a process by which vectors are [[Downsampling|Downsampled]] in [[Convolutional Neural Networks]]. There are several types of pooling, but all have in common that they take an AxBxCx....Z tensor as input, apply a function to it, and produce a scalar output. Several common types of pooling are:
+
+* [[Max Pooling]]
+* [[Average Pooling]]
+
+In addition, [[Atrous Pooling]] changes the locations where the elements in the pool are sampled from.
+
+Towards the edges of the input, the type of [[Padding]] effects how exactly the pooling works.

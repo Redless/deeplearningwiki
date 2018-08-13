@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T09:33:36-04:00
+
+====== Noise Vector ======
+
+A noise vector is a vector of random noise fed into the [[Generator]] of a [[GANs|GAN]], which will then produce an output approximating the [[Training Data]]. According to https://github.com/soumith/ganhacks, a gaussian distribution makes for the most effective noise vector.

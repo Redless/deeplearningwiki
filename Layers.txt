@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T11:09:35-04:00
+
+====== Layers ======
+
+There are many different types of layers, and each one takes inputs and provides outputs. Putting many layers together results in a model. Here are some examples of layers:
+
+* [[Fully Connected Layer]]
+* [[Convolutional Layer]]
+* [[Dropout]]
+* [[Reshape Layer]]
+
+Layers usually are only connected to the layers immediately before and after them, but in some architectures, such as [[DenseNet]] and [[U-Net]], layers are connected to different ones.

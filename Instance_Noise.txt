@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T11:59:56-04:00
+
+====== Instance Noise ======
+
+Instance noise is a trick for stabilizing [[GANs|GAN]] training: https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/
+
+Before the [[Discriminator]] is trained on a given sample, gaussian white noise is added to the input data.
+
+This is a method of making the discriminator's job harder, which alleviates the vanishing gradient problem.

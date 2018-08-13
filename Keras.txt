@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T11:25:03-04:00
+
+====== Keras ======
+
+Keras is a high-level framework for constructing [[Neural Networks]] in python. It is extremely well-documented, simple, and easy to use. To run its backend, it can take advantage of [[Theano]] or [[Tensorflow]], the second of which is the one I prefer.

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T09:22:17-04:00
+
+====== Self-Normalizing Neural Networks ======
+
+This full neural network architecture uses [[SeLu]] activation functions to make the inputs and outputs of each layer have mean 0 and standard deviation 1. This is like a more general version of [[Batch Normalization]]. Unfortunately, it only works for full neural networks instead of [[Convolutional Neural Networks]] or [[Recurrent Neural Networks]], so it's much worse than it would be if it worked for one of the better network designs.
+
+See paper: https://arxiv.org/pdf/1706.02515.pdf

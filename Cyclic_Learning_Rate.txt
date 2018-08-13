@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T12:31:18-04:00
+
+====== Cyclic Learning Rate ======
+
+Paper from the U.S. Naval Research Lab: https://arxiv.org/pdf/1506.01186.pdf
+
+In short, the paper found that cycling [[Learning Rate|Learning Rates]] up and down produced the best results for adjusting them. In particular, the learning rate is first linearly increased from .001 to .006 and then linearly decreased. This is repeated ad infinitum. The paper suggests that the optimal cycle length is between 2 and 10 epochs, but it's unclear how general this result is.

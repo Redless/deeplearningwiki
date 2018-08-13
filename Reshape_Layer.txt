@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T11:19:22-04:00
+
+====== Reshape Layer ======
+
+Reshape layers are a type of layer that is typically used in [[Convolutional Neural Networks]] to convert between [[Fully Connected Layer|Fully Connected Layers]] and [[Convolutional Layer|Convolutional Layers.]] 
+
+They take input from N nodes, and return N outputs, which are the same as the inputs. However, the inputs and the outputs are in different shapes, so a 12x3 layer might become a 4x9 layer.
+
+Reshape layers have fallen out of fashion due to the prevalence of [[Fully Convolutional Networks]], which don't use fully connected layers. If used with [[Coord2Conv]] style layers, reshape layers can still be relatively effective, however.

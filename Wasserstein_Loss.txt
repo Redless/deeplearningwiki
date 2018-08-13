@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T14:01:37-04:00
+
+====== Wasserstein Loss ======
+
+https://arxiv.org/pdf/1701.07875.pdf
+
+This paper from [[Courant Institute of Mathematical Sciences|NYU]] and [[Facebook AI Research|FAIR]] presents the Wasserstein GAN.
+
+"Earth Mover Distance" is always differentiable and offers good gradients. To change the GAN to be equivalent to earth mover distance:
+
+* The discriminator should ouput as large as possible numbers for real results, and as small as possible numbers of false results.
+* Clip the weights of the gradient after each iteration
+* Train the discriminator to convergence before you even start the generator (not sure how this is possible with the first thing, but w/e
+
+credits: https://onemoredeeper.tumblr.com/post/159421533083/how-to-train-your-gan
+
+
+The Wasserstein Loss function is commonly used in [[GANs]], and prevents several of their flaws.
+

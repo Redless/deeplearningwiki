@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T15:03:08-04:00
+
+====== Dropout ======
+http://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf
+
+Presented in Toronto's 2014 paper, dropout is an extremely simple way to prevent neural networks from overfitting. Each step of training, a model with some of the neurons present in the current model is sampled. Each neuron is included in this model with probability p. The smaller model is trained. Thus, a model with dropout can be thought of as a collection of smaller models, each with half of the parameters of the larger model.
+
+While effective for [[Convolutional Neural Networks]], dropout can't be ported to [[LSTM's]] or other [[Recurrent Neural Networks|RNN's]]. However, progress has been made in creating similar methods that are LSTM compatible has been made: https://arxiv.org/pdf/1409.2329.pdf from [[Courant Institute of Mathematical Sciences|NYU]] and [[Google Brain]]. The approach, roughly speaking, doesn't dropout the memory cells, but drops out passes forward and back through the network. See also: https://arxiv.org/pdf/1312.4569.pdf
+
+As noted in the paper, they bear some similarity to [[Bayesian Neural Networks]].
+
+The paper also notes "multiplicative gaussian noise" as a generalization of the Bernoulli noise used in traditional dropout. Instead of multiplying each activation by 1 with probability p and 0 with probability 1-p, each activation would be multiplied by some random variable following a gaussian distribution.

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T12:31:06-04:00
+
+====== Learning Rate ======
+
+The learning rate is the hyperparameter that determines how quickly the [[Gradient Descent]] proceeds during training. It's the most import [[Hyperparameter]] for quickly getting results, so tuning it or performing [[Hyperparameter Optimization]] is very important in the case of the learning rate particularly.
+
+There are several approaches for adjusting learning rate during training:
+
+* [[Cyclic Learning Rate]]
