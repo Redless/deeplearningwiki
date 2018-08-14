@@ -15,6 +15,10 @@ GAN's are super hard to train, with lots of common [[GAN Failure Modes|Failure M
 * [[Wasserstein GANs]]
 * [[Least-squares GANs]]
 * [[Instance Noise]]
+* [[Feature Matching]]
+* [[Minibatch Features]]
+* [[Virtual Batch Normalization]]
+* [[Minibatch Discrimination]]
 
 
 See this original paper from [[Montreal]]: https://arxiv.org/pdf/1406.2661.pdf

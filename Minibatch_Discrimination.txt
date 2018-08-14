@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-14T16:14:37-04:00
+
+====== Minibatch Discrimination ======
+
+According to https://arxiv.org/pdf/1606.03498.pdf, minibatches are good when training the discriminator, to help avoid GAN's collapsing to always emit the same point.
