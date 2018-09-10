@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-15T11:34:15-04:00
+
+====== Historical Averaging ======
+
+A [[GAN Training Techs|GAN Training Tech]] that has the discriminator face the creations of many historical generators, and averaged generators, rather than simply the most recent generator.

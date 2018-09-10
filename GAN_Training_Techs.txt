@@ -7,3 +7,7 @@ Creation-Date: 2018-08-13T12:24:59-04:00
 From [[Courant Institute of Mathematical Sciences]] and [[Facebook AI Research]]: https://openreview.net/pdf?id=Hk4_qw5xe
 Towards principled methods for training GANs
 This paper is only a first step, and suggests future research. Furthermore, it's all boring and useless math proofs. That's unfortunate.
+
+
+From [[OpenAI:]] https://arxiv.org/pdf/1606.03498.pdf
+That paper's lessons can be found on the [[GANs]] page.

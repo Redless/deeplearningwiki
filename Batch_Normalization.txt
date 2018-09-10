@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-16T16:53:23-04:00
+
+====== Batch Normalization ======
+Created Thursday 16 August 2018
+
+[[Google Brain|Google]]: https://arxiv.org/pdf/1502.03167.pdf
+
+An extremely powerful and intuitive tool with a lot of great effects. I really like this.

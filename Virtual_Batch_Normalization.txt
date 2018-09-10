@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-15T11:42:53-04:00
+
+====== Virtual Batch Normalization ======
+Created Wednesday 15 August 2018
+
+Batch normalization done using a pre-obtained reference sample rather than the batch itself. A [[GAN Training Techs|GAN Training Tech]].

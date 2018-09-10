@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-15T14:15:09-04:00
+
+====== pix2pix ======
+
+
+From [[Berkeley AI Research]]: https://arxiv.org/pdf/1611.07004v1.pdf
+
+A pixel in, pixel out [[GANs|GAN]] with incredibly strong results. They use a [[U-Net]] like architecture to acheive these results.

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-16T16:18:04-04:00
+
+====== All-Convolutional Networks ======
+
+
+From [[Freiburg]]: https://arxiv.org/pdf/1412.6806.pdf
+
+The most vanilla possible network. Only uses convolutional layers. Does downsampling occasionally with strided convolutions.

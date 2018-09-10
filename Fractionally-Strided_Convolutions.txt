@@ -5,3 +5,10 @@ Creation-Date: 2018-08-13T14:51:05-04:00
 ====== Fractionally-Strided Convolutions ======
 Created Monday 13 August 2018
 
+https://arxiv.org/pdf/1609.05158.pdf from twitter.
+
+Among other things. 
+
+A convolutional layer that has a fractional stride. This results in upscaling, an output that's larger than its input.
+
+The paper says that this is commonly implemented with "interpolation, perforate, or un-pooling".

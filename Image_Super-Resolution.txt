@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-15T13:40:05-04:00
+
+====== Image Super-Resolution ======
+
+Image super-resolution is an application of generative adversarial networks. It involves scaling up an image.
+https://arxiv.org/pdf/1610.04490.pdf
+
+See also: [[Inpainting]], [[pix2pix]]

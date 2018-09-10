@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-15T12:03:27-04:00
+
+====== BEGAN ======
+
+BEGAN is a [[GANs|GAN]] architecture. From [[Google Brain]]: https://arxiv.org/pdf/1703.10717.pdf.
+
+It has an autoencoder [[Discriminator|discriminator]] that encodes stuff. Then, it tries to make its auto-encodings as close together as possible. Without using any other [[GAN Training Techs|GAN tricks,]] they got very good results. I still don't understand it very well.

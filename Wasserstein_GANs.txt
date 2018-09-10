@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-16T14:59:49-04:00
+
+====== Wasserstein GANs ======
+Created Thursday 16 August 2018
+
+https://arxiv.org/pdf/1701.07875.pdf
+
+One hell of a paper. They use "earth mover distance" to alleviate many of the problems with GANs. It's too high level and mathy for me to think that understanding it is a good use of my time.
+
+https://arxiv.org/pdf/1704.00028.pdf the sequel, from nyu and montreal. it proposes an alternative to clipping.

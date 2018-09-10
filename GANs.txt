@@ -10,7 +10,7 @@ By taking advantage of a GAN framework, generative models rather than simply jud
 
 Furthermore, GAN's can be trained completely on unsupervised data.
 
-GAN's are super hard to train, with lots of common [[GAN Failure Modes|Failure Modes]], so tons of tricks exist to make training them easier, such as:
+GAN's are super hard to train, with lots of common [[GAN Failure Modes|Failure Modes]], so tons of [[GAN Training Techs|tricks]] exist to make training them easier, such as:
 
 * [[Wasserstein GANs]]
 * [[Least-squares GANs]]
@@ -19,6 +19,8 @@ GAN's are super hard to train, with lots of common [[GAN Failure Modes|Failure M
 * [[Minibatch Features]]
 * [[Virtual Batch Normalization]]
 * [[Minibatch Discrimination]]
+* [[Historical Averaging]]
+* [[Label Smoothing]]
 
 
 See this original paper from [[Montreal]]: https://arxiv.org/pdf/1406.2661.pdf

@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-15T11:39:28-04:00
+
+====== Label Smoothing ======
+
+Replacing a 0 or 1 label with a .1 or .9 instead, or similar. Makes adversarial stuff easier to deal with.
